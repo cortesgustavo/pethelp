@@ -1,3 +1,8 @@
+*{
+  margin: 0 auto;
+  padding: 0px;
+}
+
 h1 {
   text-align: center;
   font-size: 28px;
@@ -23,6 +28,7 @@ body {
   width: 200px;
   transition: all 0.3s ease-out;
   text-align: center;
+  box-sizing:unset;
 }
 
 .card .image {
@@ -85,6 +91,22 @@ table .button {
   border-radius: 12px;
 }
 
+/*Cadastro de Cliente*/
+
+.form-cadastro{
+  width: 70%;
+  margin: 0 auto;
+  padding: 30px;
+ 
+}
+
+.titulo-cadastro{
+  
+  padding-top: 40px;
+  text-align: center;
+}
+
+
 @media (max-width: 786px) {
   * {
     margin: 0 auto;
@@ -101,5 +123,11 @@ table .button {
     width: 100%;
     margin: auto;
     margin-top: 40px;
+  }
+
+  .form-cadastro{
+    width: 90%;
+    margin: 0 auto;
+    padding: 15px;
   }
 }

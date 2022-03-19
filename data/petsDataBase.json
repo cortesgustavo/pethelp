@@ -2,7 +2,7 @@
     {
         "id":1,
         "nome":"Tião",
-        "dt_dascimento":"10/03/2021",
+        "dt_nascimento":"10/03/2021",
         "raca":"Shitzu",
         "cod_prop":"11453552693",
         "foto":"1.jpg"
@@ -10,7 +10,7 @@
     {
         "id":2,
         "nome":"Toto",
-        "dt_dascimento":"10/03/2021",
+        "dt_nascimento":"10/03/2021",
         "raca":"Vira-Lata",
         "cod_prop":"11453552693",
         "foto":"2.jpg"
@@ -18,7 +18,7 @@
     {
         "id":3,
         "nome":"Tor",
-        "dt_dascimento":"10/03/2021",
+        "dt_nascimento":"10/03/2021",
         "raca":"Pastor",
         "cod_prop":"11453552693",
         "foto":"3.jpg"

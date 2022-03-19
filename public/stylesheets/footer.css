@@ -74,6 +74,13 @@ nav {
   width: 50px;
 }
 
+.fixarRodape {
+  /*bottom: 0;*/
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}
+
 /*Ajuste Gustavo
 de: 
 @media (max-width: 1535px)
@@ -103,4 +110,15 @@ footer {
     height: 100%;
     flex-wrap: wrap;
   }
+  
+.fixarRodape {
+  bottom: 0;
+  position: relative;
+  width: 100%;
+ 
+}
+.midias{
+  display: none;
+}
+
 }

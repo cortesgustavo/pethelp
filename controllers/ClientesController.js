@@ -10,14 +10,17 @@ const pets = JSON.parse(fs.readFileSync(petsFilePath,'utf-8'));
 const ClientesController = {
 
     index: (req,res) =>{
-        res.render('clientes_json',{consultas, pets});
+        res.render('clientes_inicial',{consultas, pets});
         
     },
     cadastroPets:(req,res) =>{
 
         res.send("Cadastro de Pets")
-    }
+    },
     
+    cadastroCliente:(req,res) =>{
+        res.render("clientes_cadastro")
+    }
 }
 
 module.exports = ClientesController;
